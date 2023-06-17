@@ -2,3 +2,19 @@
     color: darkslategrey;
     font-weight: bold;
 }
+
+.timeline {
+    display: grid;
+    grid-template-columns: 35px 5px 35px;
+    column-gap: 5px;
+}
+
+.dash-divider {
+    font-weight: bold;
+    grid-row: 1 / 1;
+}
+
+.year {
+    font-weight: bold;
+    grid-row: 1 / 1;
+}
