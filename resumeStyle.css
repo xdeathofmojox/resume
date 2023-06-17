@@ -4,17 +4,24 @@
 }
 
 .timeline {
-    display: grid;
-    grid-template-columns: 35px 5px 35px;
-    column-gap: 5px;
+    font-weight: bold;
 }
 
-.dash-divider {
-    font-weight: bold;
-    grid-row: 1 / 1;
+.job-title {
+    color: cadetblue;
 }
 
-.year {
+.company-name {
     font-weight: bold;
-    grid-row: 1 / 1;
+}
+
+.company-name, .company-division {
+    display: inline-block;
+    width: fit-content;
+}
+
+.job-title, .vertical-divider {
+    display: inline-block;
+    width: fit-content;
+    font-weight: bold;
 }
