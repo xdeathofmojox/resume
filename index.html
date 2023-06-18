@@ -7,171 +7,256 @@
   <body>
     <div id="header">
     </div>
-    <div id="left">
-    </div>
-    <div id="content">
-      <div id="name" class="name">
-        <section id="firstName">
-          Will
-        </section>
-        <section id="lastName">
-          Brown
-        </section>
+    <div id="grid-container">
+      <div id="left">
       </div>
-      <div id="home-address" class="address">
-        <div id="home-address-city" class="city">
-          Palm Bay
+      <div id="mid">
+        <div id="content">
+          <div id="name" class="name">
+            <section id="firstName">
+              Will
+            </section>
+            <section id="lastName">
+              Brown
+            </section>
+          </div>
+          <div id="content-contact" class="single-column">
+            <div id="home-address" class="address">
+              <div id="home-address-city" class="city">
+                Palm Bay,
+              </div>
+              <div id="home-address-state" class="state">
+                FL
+              </div>
+            </div>
+            <div id="phone-number" class="phone-link">
+              <a href="tel: 407-492-1720">
+                Text Me
+              </a>
+            </div>
+            <div id="email-address" class="email-link">
+              <a href = "mailto: wbrown_15@yahoo.com">
+                Email Me
+              </a>
+            </div>
+            <div id="linkedin" class="website-link">
+              <a href = "https://linkedin.com/in/robert-will-brown">
+                LinkedIn
+              </a>
+            </div>
+            <div id="github" class="website-link">
+              <a href = "https://github.com/xdeathofmojox">
+                GitHub
+              </a>
+            </div>
+          </div>
         </div>
-        <div id="home-address-state" class="state">
-          FL
-        </div>
-      </div>
-      <div id="phone-number" class="phone-link">
-        <a href="tel: 407-492-1720">
-          Text Me
-        </a>
-      </div>
-      <div id="email-address" class="email-link">
-        <a href = "mailto: wbrown_15@yahoo.com">
-          Email Me
-        </a>
-      </div>
-      <div id="linkedin" class="website-link">
-        <a href = "https://linkedin.com/in/robert-will-brown">
-          LinkedIn
-        </a>
-      </div>
-      <div id="github" class="website-link">
-        <a href = "https://github.com/xdeathofmojox">
-          GitHub
-        </a>
-      </div>
-    </div>
-    <div id="education">
-      <div id="aa-valencia">
-        <div id="aa-valencia-degree" class="degree-type">
-          Associate in Arts Degree
-        </div>
-        <div id="aa-valencia-major" class="major-type">
-          Computer Science
-        </div>
-        <div id="aa-valencia-name" class="school-name">
-          <a href="https://valenciacollege.edu/">
-            Valencia College
-          </a>
-        </div>
-      </div>
-      <div id="bs-ucf">
-        <div id="bs-ucf-degree" class="degree-type">
-          Bachelor of Science Degree
-        </div>
-        <div id="bs-ucf-major" class="major-type">
-          Computer Science
-        </div>
-        <div id="bs-ucf-name" class="school-name">
-          <a href="https://www.ucf.edu/">
-            University of Central Florida
-          </a>
-        </div>
-      </div>
-    </div>
-    <div id="experience">
-      <div id="avidyne" class="company">
-        <div id="avidyne-title" class="job-title">
-          Senior Software Engineer
-        </div>
-        <div class="vertical-divider">
-          |
-        </div>
-        <div id="avidyne-name" class="company-name">
-          Avidyne
-        </div>
-        <div id="avidyne-dates" class="timeline">
+        <div id="experience">
+          <div class="title">
+            Experience
+          </div>
+          <div class="line"></div>
+          <div id="avidyne" class="company">
+            <div id="avidyne-title" class="job-title">
+              Senior Software Engineer
+            </div>
+            <div class="vertical-divider">
+              |
+            </div>
+            <div id="avidyne-name" class="company-name">
+              Avidyne
+            </div>
+            <div id="avidyne-dates" class="timeline">
+              2023 - Current
+            </div>
+            <div id="avidyne-experience" class="job-experience">
+              <ul>
+                <li>
+                  Design and implementation of serial API for Flight Management System.
+                </li>
+                <li>
+                  Bootloader and application logic for ATTiny214 microcontroller.
+                </li>
+                <li>
+                  Algorithm to track minimum safe altitudes along a flight path.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="ng-as" class="company">
+            <div id="ng-as-title" class="job-title">
+              Principal Software Engineer
+            </div>
+            <div class="vertical-divider">
+              |
+            </div>
+            <div id="ng-as-name" class="company-name">
+              Northrop Grumman
+            </div>
+            <div is="ng-as-division" class="company-division">
+              (Aeronautics Systems)
+            </div>
+            <div id="ng-as-dates" class="timeline">
+              2020 - 2023
+            </div>
+            <div id="ng-as-experience" class="job-experience">
+              <ul>
+                <li>
+                  Vehicle management system software product owner of 3+ modular subsystems.
+                </li>
+                <li>
+                  Led team of 7+ engineers in developing requirements, implementing operational flight program and writing automated test designs and scripts.
+                </li>
+                <li>
+                  Increased number of requirement coverage tests from 30% to 98% across multiple subsystems.
+                </li>
+                <li>
+                  Designed and executed branching strategy, release schedule and workflow for custom vehicle command and control API.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="lm-mfc" class="company">
+            <div id="lm-mfc-title" class="job-title">
+              Software Engineer
+            </div>
+            <div class="vertical-divider">
+              |
+            </div>
+            <div id="lm-mfc-name" class="company-name">
+              Lockheed Martin
+            </div>
+            <div is="lm-mfc-division" class="company-division">
+              (Missiles and Fire Control)
+            </div>
+            <div id="lm-mfc-dates" class="timeline">
+              2016 - 2020
+            </div>
+            <div id="lm-mfc-experience" class="job-experience">
+              <ul>
+                <li>
+                  Software product owner for Digital Twin (simulation and core operational flight program).
+                </li>
+                <li>
+                  Design and integration of new message standard into existing program of record, coordinating with government and industry partners.
+                </li>
+                <li>
+                  Temporary software lead in charge of overseeing simulation event at customer site.
+                </li>
+                <li>
+                  Implemented contingency management system for DARPA CODE program.
+                </li>
+                <li>
+                  Patent awarded for pseudo-random circuit generator (US Patent 10,146,901).
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="disney" class="company">
 
+          </div>
+          <div id="self-employed" class="company">
+            <div id="self-title" class="job-title">
+              iOS Application Developer
+            </div>
+            <div class="vertical-divider">
+              |
+            </div>
+            <div id="self-name" class="company-name">
+              Self
+            </div>
+            <div id="self-dates" class="timeline">
+              2014 - Current
+            </div>
+            <div id="self-experience" class="job-experience">
+              <ul>
+                <li>
+                  Timerball – A game for watchOS built using SwiftUI.
+                </li>
+                <li>
+                  Hyperfitsation – An iOS workout tracking app built using Unity.
+                </li>
+                <li>
+                  Don’t Shave Abe – An iOS dodging game built using Objective-C. 6000+ downloads.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div id="avidyne-experience" class="job-experience">
-          <ul>
-
+        <div id="education">
+          <div class="title">
+            Education
+          </div>
+          <div class="line"></div>
+          <div id="aa-valencia">
+            <div id="aa-valencia-degree" class="degree-type">
+              Associate in Arts Degree
+            </div>
+            <div id="aa-valencia-major" class="major-type">
+              Computer Science
+            </div>
+            <div id="aa-valencia-name" class="school-name">
+              <a href="https://valenciacollege.edu/">
+                Valencia College
+              </a>
+            </div>
+          </div>
+          <div id="bs-ucf">
+            <div id="bs-ucf-degree" class="degree-type">
+              Bachelor of Science Degree
+            </div>
+            <div id="bs-ucf-major" class="major-type">
+              Computer Science
+            </div>
+            <div id="bs-ucf-name" class="school-name">
+              <a href="https://www.ucf.edu/">
+                University of Central Florida
+              </a>
+            </div>
+            <div id="bs-ucf-experience" class="school-exp">
+              <ul>
+                <li>
+                  Collaborated with NASA and SEE (Simulation Exploration Experience) to host and participate in the SEE 2017 event. Hosted an AWS server that teams from around the world connected to for a distributed simulation using the HLA framework.
+                </li>
+                <li>
+                  Published two technical papers with SAE international.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="skills">
+          <div class="title">
+            Skills
+          </div>
+          <div class="line"></div>
+          <ul class="column-list">
+            <li>
+              Python
+            </li>
+            <li>
+              C++
+            </li>
+            <li>
+              Git
+            </li>
+            <li>
+              Agile
+            </li>
+            <li>
+              Autonomous Systems
+            </li>
+            <li>
+              Real time embedded applications
+            </li>
+            <li>
+              CI/CD
+            </li>
           </ul>
         </div>
       </div>
-      <div id="ng-as" class="company">
-        <div id="ng-as-title" class="job-title">
-          Principal Software Engineer
-        </div>
-        <div class="vertical-divider">
-          |
-        </div>
-        <div id="ng-as-name" class="company-name">
-          Northrop Grumman
-        </div>
-        <div is="ng-as-division" class="company-division">
-          (Aeronautics Systems)
-        </div>
-        <div id="ng-as-dates" class="timeline">
-          2020 - 2023
-        </div>
-        <div id="ng-as-experience" class="job-experience">
-          <ul>
-            <li>
-              Vehicle management system software product owner of 3+ modular subsystems.
-            </li>
-            <li>
-              Led team of 7+ engineers in developing requirements, implementing operational flight program and writing automated test designs and scripts.
-            </li>
-            <li>
-              Increased number of requirement coverage tests from 30% to 98% across multiple subsystems.
-            </li>
-            <li>
-              Designed and executed branching strategy, release schedule and workflow for custom vehicle command and control API.
-            </li>
-          </ul>
-        </div>
+      <div id="right">
       </div>
-      <div id="lm-mfc" class="company">
-        <div id="lm-mfc-title" class="job-title">
-          Software Engineer
-        </div>
-        <div class="vertical-divider">
-          |
-        </div>
-        <div id="lm-mfc-name" class="company-name">
-          Lockheed Martin
-        </div>
-        <div is="lm-mfc-division" class="company-division">
-          (Missiles and Fire Control)
-        </div>
-        <div id="lm-mfc-dates" class="timeline">
-          2016 - 2020
-        </div>
-        <div id="lm-mfc-experience" class="job-experience">
-          <ul>
-            <li>
-              Software product owner for Digital Twin (simulation and core operational flight program).
-            </li>
-            <li>
-              Design and integration of new message standard into existing program of record, coordinating with government and industry partners.
-            </li>
-            <li>
-              Temporary software lead in charge of overseeing simulation event at customer site.
-            </li>
-            <li>
-              Implemented contingency management system for DARPA CODE program.
-            </li>
-            <li>
-              Patent awarded for pseudo-random circuit generator (US Patent 10,146,901).
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div id="disney" class="company">
-
-      </div>
-      <div id="self-employed" class="company">
-
-      </div>
-    </div>
-    <div id="right">
     </div>
     <div id="footer">
     </div>

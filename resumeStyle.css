@@ -1,18 +1,66 @@
+@font-face {
+    font-family: comic_neue;
+    src: url(./fonts/Comic_Neue/ComicNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: comic_neue_bold;
+    src: url(./fonts/Comic_Neue/ComicNeue-Bold.ttf);
+}
+
+body {
+    font-family:comic_neue;
+}
+
+#header, #footer {
+    background-color: darkcyan;
+    height: 50px;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#content-contact {
+    text-align:right;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#left, #right {
+    background-color: darkcyan;
+    width: 50px;
+    display: inline-block;
+}
+
+#mid {
+    background-color:azure;
+}
+
 #lastName {
-    color: darkslategrey;
-    font-weight: bold;
+    color: black;
+    font-family: comic_neue_bold;
+}
+
+/* TODO */
+#avidyne {
+    display: none;
 }
 
 .timeline {
-    font-weight: bold;
+    font-family: comic_neue_bold;
 }
 
 .job-title {
-    color: cadetblue;
+    color:deeppink;
 }
 
 .company-name {
-    font-weight: bold;
+    font-family: comic_neue_bold;
 }
 
 .company-name, .company-division {
@@ -23,5 +71,29 @@
 .job-title, .vertical-divider {
     display: inline-block;
     width: fit-content;
-    font-weight: bold;
+    font-family: comic_neue_bold;
+}
+
+.city, .state {
+    display: inline-block;
+    width: fit-content;
+}
+
+.line {
+    height: 0;
+    border: 1px solid black;
+    display:block;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-family: comic_neue_bold;
+}
+
+.column-list {
+    column-count: 4;
+}
+
+.single-column {
+    display: grid;
 }
