@@ -8,6 +8,10 @@
     src: url(./fonts/Comic_Neue/ComicNeue-Bold.ttf);
 }
 
+html {
+    background-color: pink;
+}
+
 body {
     font-family:comic_neue;
 }
