@@ -28,6 +28,8 @@ body {
 
 #content-contact {
     text-align:right;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #grid-container {
@@ -43,6 +45,7 @@ body {
 
 #mid {
     background-color:azure;
+    padding: 10px;
 }
 
 #lastName {
@@ -100,4 +103,32 @@ body {
 
 .single-column {
     display: grid;
+}
+
+.name {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: xx-large;
+}
+
+.degree-type {
+    display: inline-block;
+    font-family: comic_neue_bold;
+}
+
+.major-type {
+    display: inline-block;
+    font-family: comic_neue_bold;
+}
+
+.school-name {
+    font-family: comic_neue_bold;
+}
+
+.school {
+    padding-bottom: 10px;
+}
+
+a {
+    color: darkcyan;
 }
