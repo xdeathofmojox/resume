@@ -275,8 +275,8 @@
    .then(response => response.json())
    .then(response => console.log(JSON.stringify(response)))
    .then(response => {
-    var s = document.getElementById('view-count');
-    s.value = response['views'];
+    const data = JSON.parse(response)
+    document.getElementById('view-count').innerHTML = data.views;
    })
   </script>
 </html>
