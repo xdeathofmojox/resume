@@ -275,7 +275,7 @@
    .then(response => response.json())
    .then(response => {
     console.log(response)
-    document.getElementById('view-count').innerHTML = data.views;
+    document.getElementById('view-count').innerHTML = response.views;
    })
   </script>
 </html>
