@@ -273,9 +273,8 @@
     }
   })
    .then(response => response.json())
-   .then(response => console.log(JSON.stringify(response)))
    .then(response => {
-    const data = JSON.parse(response)
+    console.log(response)
     document.getElementById('view-count').innerHTML = data.views;
    })
   </script>
